@@ -73,13 +73,13 @@ body: |
     attributes:
       label: Runbooks updated
       required: true
-   - type: checkboxes
-     id: log_monitor_alerts
-     attributes:
-      label: Logging, Monitoring & Alerts set up / updated
-      required: true     
-   - type: checkboxes
-     id: demo
-     attributes:
-      label: Demoed in showcase
-      required: true
+  - type: checkboxes
+    id: log_monitor_alerts
+    attributes:
+     label: Logging, Monitoring & Alerts set up / updated
+     required: true     
+  - type: checkboxes
+    id: demo
+    attributes:
+     label: Demoed in showcase
+     required: true
