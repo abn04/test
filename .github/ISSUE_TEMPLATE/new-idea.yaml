@@ -43,10 +43,6 @@ body:
     placeholder: List of deliverables this issue depends on
   validations:
     required: false
-- type:markdown
-  id: definitionOfDone
-  attributes:
-    value:Definition of Done
 - type: checkboxes
   id: scopedefined
   attributes:
