@@ -49,53 +49,53 @@ body:
     label: Scope and Requirements agreed
     options:
     - label: I have searched the existing issues
-    required: true
+      required: true
 - type: checkboxes
   id: designdefuzz
   attributes:
     label: Design Defuzz on
     options:
     - label: I have searched the existing issues
-    required: true
+      required: true
 - type: checkboxes
   id: hld
   attributes:
     label: High Level Design diagrams & Documentation Created / Updated
     options:
     - label: I have searched the existing issues
-    required: true     
+      required: true     
 - type: checkboxes
   id: adr
   attributes:
     label: Architecture decision records created
     options:
     - label: I have searched the existing issues
-    required: true      
+      required: true      
 - type: checkboxes
   id: deploysuccess
   attributes:
     label: Deployed to all relevant environments successfully
     options:
     - label: I have searched the existing issues
-    required: true    
+      required: true    
 - type: checkboxes
   id: runbooks updated
   attributes:
     label: Runbooks updated
     options:
     - label: I have searched the existing issues
-    required: true
+      required: true
 - type: checkboxes
   id: log_monitor_alerts
   attributes:
     label: Logging, Monitoring & Alerts set up / updated
     options:
     - label: I have searched the existing issues
-    required: true     
+      required: true     
 - type: checkboxes
   id: demo
   attributes:
     label: Demoed in showcase
     options:
     - label: I have searched the existing issues
-    required: true
+      required: true
