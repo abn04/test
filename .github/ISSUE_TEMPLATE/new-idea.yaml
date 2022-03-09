@@ -4,13 +4,13 @@ description: Request to implement new capability (will be prioritised
 labels: [new-idea]
 body: 
 - type: textarea
-    id: motivation
-    attributes:
-      label: Motivation
-      description: Describe benefits of implementing this platform capability
-      placeholder: Describe benefits of implementing this platform capability
-    validations:
-      required: true
+  id: motivation
+  attributes:
+    label: Motivation
+    description: Describe benefits of implementing this platform capability
+    placeholder: Describe benefits of implementing this platform capability
+  validations:
+    required: true
 - type: textarea
     id: scope
     attributes:
