@@ -2,8 +2,8 @@ name: "New Idea"
 description: Request to implement new capability (will be prioritised
   at planning)
 labels: [new-idea]
-body: |-
-  - type: textarea
+body: 
+- type: textarea
     id: motivation
     attributes:
       label: Motivation
@@ -11,7 +11,7 @@ body: |-
       placeholder: Describe benefits of implementing this platform capability
     validations:
       required: true
-  - type: textarea
+- type: textarea
     id: scope
     attributes:
       label: Scope
@@ -19,7 +19,7 @@ body: |-
       placeholder: Define scope of the new capability
     validations:
       required: false
-  - type: textarea
+- type: textarea
     id: requirements
     attributes:
       label: Requirements
@@ -27,7 +27,7 @@ body: |-
       placeholder: List down success criteria to implement the capability
     validations:
       required: true
-  - type: textarea
+- type: textarea
     id: assumptions
     attributes:
       label: Assumptions (Optional)
@@ -35,7 +35,7 @@ body: |-
       placeholder: Describe any assumptions made for the delivery of the capability
     validations:
       required: false
-  - type: textarea
+- type: textarea
     id: dependency
     attributes:
       label: Dependencies (Optional)
@@ -43,46 +43,46 @@ body: |-
       placeholder: List of deliverables this issue depends on
     validations:
       required: false
-  - type:markdown
+- type:markdown
      id: definitionOfDone
      attributes:
        value:Definition of Done
-  - type: checkboxes
+- type: checkboxes
     id: scopedefined
     attributes:
       label: Scope and Requirements agreed
       required: true
-  - type: checkboxes
+- type: checkboxes
     id: designdefuzz
     attributes:
       label: Design Defuzz on
       required: true
-  - type: checkboxes
+- type: checkboxes
     id: hld
     attributes:
       label: High Level Design diagrams & Documentation Created / Updated
       required: true     
-  - type: checkboxes
+- type: checkboxes
     id: adr
     attributes:
       label: Architecture decision records created
       required: true      
-  - type: checkboxes
+- type: checkboxes
     id: deploysuccess
     attributes:
       label: Deployed to all relevant environments successfully
       required: true    
-  - type: checkboxes
+- type: checkboxes
     id: runbooks updated
     attributes:
       label: Runbooks updated
       required: true
-  - type: checkboxes
+- type: checkboxes
     id: log_monitor_alerts
     attributes:
      label: Logging, Monitoring & Alerts set up / updated
      required: true     
-  - type: checkboxes
+- type: checkboxes
     id: demo
     attributes:
      label: Demoed in showcase
