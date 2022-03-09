@@ -1,6 +1,7 @@
 name: New Idea
 description: Request to implement new capability on Core Engineering GKE Platform (will be prioritised
   at planning)
+title: ""
 labels: [new-idea]
 body:
   - type: textarea
