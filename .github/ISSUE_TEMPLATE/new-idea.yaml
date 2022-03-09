@@ -44,46 +44,46 @@ body:
   validations:
     required: false
 - type:markdown
-     id: definitionOfDone
-     attributes:
-       value:Definition of Done
+  id: definitionOfDone
+  attributes:
+    value:Definition of Done
 - type: checkboxes
-    id: scopedefined
-    attributes:
-      label: Scope and Requirements agreed
-      required: true
+  id: scopedefined
+  attributes:
+    label: Scope and Requirements agreed
+    required: true
 - type: checkboxes
-    id: designdefuzz
-    attributes:
-      label: Design Defuzz on
-      required: true
+  id: designdefuzz
+  attributes:
+    label: Design Defuzz on
+    required: true
 - type: checkboxes
-    id: hld
-    attributes:
-      label: High Level Design diagrams & Documentation Created / Updated
-      required: true     
+  id: hld
+  attributes:
+    label: High Level Design diagrams & Documentation Created / Updated
+    required: true     
 - type: checkboxes
-    id: adr
-    attributes:
-      label: Architecture decision records created
-      required: true      
+  id: adr
+  attributes:
+    label: Architecture decision records created
+    required: true      
 - type: checkboxes
-    id: deploysuccess
-    attributes:
-      label: Deployed to all relevant environments successfully
-      required: true    
+  id: deploysuccess
+  attributes:
+    label: Deployed to all relevant environments successfully
+    required: true    
 - type: checkboxes
-    id: runbooks updated
-    attributes:
-      label: Runbooks updated
-      required: true
+  id: runbooks updated
+  attributes:
+    label: Runbooks updated
+    required: true
 - type: checkboxes
-    id: log_monitor_alerts
-    attributes:
-     label: Logging, Monitoring & Alerts set up / updated
-     required: true     
+  id: log_monitor_alerts
+  attributes:
+    label: Logging, Monitoring & Alerts set up / updated
+    required: true     
 - type: checkboxes
-    id: demo
-    attributes:
-     label: Demoed in showcase
-     required: true
+  id: demo
+  attributes:
+    label: Demoed in showcase
+    required: true
