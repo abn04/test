@@ -2,7 +2,7 @@ name: New Idea
 description: Request to implement new capability (will be prioritised
   at planning)
 labels: [new-idea]
-body: |
+body: |-
   - type: textarea
     id: motivation
     attributes:
