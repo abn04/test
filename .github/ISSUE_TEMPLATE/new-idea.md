@@ -1,12 +1,3 @@
----
-name: new-idea
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: New Idea
 description: Request to implement new capability on Core Engineering GKE Platform (will be prioritised
   at planning)
