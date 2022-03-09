@@ -81,12 +81,12 @@ body:
 - type: checkboxes
   id: runbooks updated
   attributes:
-    label: Runbooks updated
+    label: Runbooksupdated
     options:
     - label: I have searched the existing issues
       required: true
 - type: checkboxes
-  id: log_monitor_alerts
+  id: logmonitoralerts
   attributes:
     label: Logging, Monitoring & Alerts set up / updated
     options:
