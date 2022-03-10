@@ -9,7 +9,7 @@ body:
     label: Owned by 
     placeholder: <name of engineer/s>
   validations:
-    required: true
+    required: false
 - type: textarea
   id: motivation
   attributes:
