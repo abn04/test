@@ -7,7 +7,7 @@ body:
   id: motivation
   attributes:
     label: Motivation
-    description: Describe benefits of implementing this platform capability
+    description: Benefits of implementing this platform capability
     placeholder: Describe benefits of implementing this platform capability
   validations:
     required: true
@@ -15,7 +15,7 @@ body:
   id: scope
   attributes:
     label: Scope
-    description: Define scope of the new capability
+    description: Scope of the new capability
     placeholder: Define scope of the new capability
   validations:
     required: false
@@ -23,7 +23,7 @@ body:
   id: requirements
   attributes:
     label: Requirements
-    description: List down success criteria to implement the capability
+    description: Success criteria to implement the capability
     placeholder: List down success criteria to implement the capability
   validations:
     required: true
@@ -31,7 +31,7 @@ body:
   id: assumptions
   attributes:
     label: Assumptions (Optional)
-    description: Describe any assumptions made for the delivery of the capability
+    description: Assumptions made for the delivery of the capability
     placeholder: Describe any assumptions made for the delivery of the capability
   validations:
     required: false
@@ -58,3 +58,11 @@ body:
     - label: Runbooks Updated
     - label: Logging, Monitoring & Alerts set up / updated
     - label: Demoed in showcase
+- type: textarea
+  id: notes
+  attributes:
+    label: Notes & Questions
+    description: Any Notes and Questions
+    placeholder: Any Notes and open questions related to the issue goes here
+  validations:
+    required: false
