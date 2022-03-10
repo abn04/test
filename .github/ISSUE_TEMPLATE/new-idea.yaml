@@ -14,7 +14,6 @@ body:
   id: scope
   attributes:
     label: Scope
-    description: Scope of the new capability
     placeholder: Define scope of the new capability
   validations:
     required: false
@@ -22,7 +21,6 @@ body:
   id: requirements
   attributes:
     label: Requirements
-    description: Success criteria to implement the capability
     placeholder: List down success criteria to implement the capability
   validations:
     required: true
@@ -30,15 +28,17 @@ body:
   id: assumptions
   attributes:
     label: Assumptions (Optional)
-    description: Assumptions made for the delivery of the capability
-    placeholder: Describe any assumptions made for the delivery of the capability
+    placeholder: | 
+      Describe any assumptions made for the delivery of the capability
+      Eg: 
+      1. fdsfds
+      2. sdfdsfds
   validations:
     required: false
 - type: textarea
   id: dependency
   attributes:
     label: Dependencies (Optional)
-    description: List of deliverables this issue depends on
     placeholder: List of deliverables this issue depends on
   validations:
     required: false
@@ -52,7 +52,7 @@ body:
     - label: Design Defuzz on
       required: true
     - label: High Level Design diagrams & Documentation Created / Updated
-    - label: Architecture decision records created
+    - label: Architecture Decision Records created
     - label: Deployed to all relevant environments successfully
     - label: Runbooks Updated
     - label: Logging, Monitoring & Alerts set up / updated
@@ -61,7 +61,6 @@ body:
   id: notes
   attributes:
     label: Notes & Questions
-    description: Any Notes and Questions
     placeholder: Any Notes and open questions related to the issue goes here
   validations:
     required: false
