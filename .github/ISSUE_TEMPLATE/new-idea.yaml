@@ -44,11 +44,13 @@ body:
   validations:
     required: false
 - type: checkboxes
-  id: scopedefined
+  id: dod
   attributes:
-    label: Scope and Requirements agreed
+    label: Definition of Done
     options:
     - label: Scope and Requirements agreed
+      required: true
+    - label: Design Defuzz on
       required: true
 - type: checkboxes
   id: designdefuzz
