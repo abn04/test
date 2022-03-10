@@ -46,9 +46,8 @@ body:
 - type: checkboxes
   id: scopedefined
   attributes:
-    label: Scope and Requirements agreed
     options:
-    - label: I have searched the existing issues
+    - label: Scope and Requirements agreed
       required: true
 - type: checkboxes
   id: designdefuzz
