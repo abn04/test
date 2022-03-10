@@ -3,6 +3,11 @@ description: Request to implement new capability (will be prioritised
   at planning)
 labels: [new-idea]
 body: 
+- type: input
+  id: owner
+  attributes:
+  label: Owned by 
+  placeholder: <name of engineer/s>
 - type: textarea
   id: motivation
   attributes:
@@ -30,7 +35,7 @@ body:
     label: Assumptions (Optional)
     placeholder: | 
       Describe any assumptions made for the delivery of the capability 
-      Eg: \n
+      Eg:
       1. Security owns UUID generation process and uniqueness
       2. Approval process owned by Security
   validations:
