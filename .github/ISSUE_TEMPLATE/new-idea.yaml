@@ -29,10 +29,10 @@ body:
   attributes:
     label: Assumptions (Optional)
     placeholder: | 
-      Describe any assumptions made for the delivery of the capability
-      Eg: 
-      1. fdsfds
-      2. sdfdsfds
+      Describe any assumptions made for the delivery of the capability 
+      Eg: \n
+      1. Security owns UUID generation process and uniqueness
+      2. Approval process owned by Security
   validations:
     required: false
 - type: textarea
