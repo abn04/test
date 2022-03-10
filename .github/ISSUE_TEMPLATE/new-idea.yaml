@@ -7,7 +7,6 @@ body:
   id: motivation
   attributes:
     label: Motivation
-    description: Benefits of implementing this platform capability
     placeholder: Describe benefits of implementing this platform capability
   validations:
     required: true
