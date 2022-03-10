@@ -79,7 +79,7 @@ body:
     - label: I have searched the existing issues
       required: true    
 - type: checkboxes
-  id: runbooks updated
+  id: runbooksupdated
   attributes:
     label: Runbooksupdated
     options:
