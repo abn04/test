@@ -6,8 +6,10 @@ body:
 - type: input
   id: owner
   attributes:
-  label: Owned by 
-  placeholder: <name of engineer/s>
+    label: Owned by 
+    placeholder: <name of engineer/s>
+  validations:
+    required: true
 - type: textarea
   id: motivation
   attributes:
